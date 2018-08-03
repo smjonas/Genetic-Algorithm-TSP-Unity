@@ -15,13 +15,11 @@ public class World : MonoBehaviour {
     [Tooltip("The number of individuals in the population")]
     public int populationSize;
 
-    
-    [Tooltip("The number of best chromosomes which are transferred" +
-        " to the next generation without mutating their DNA")]
-    public int elitism;
-
     [Tooltip("The probability of each city in the DNA of a chromosome to be mutated")]
     public float mutationRate;
+
+    [Tooltip("The number of best chromosomes which are transferred to the next generation")]
+    public int elitism;
 
     [Tooltip("When true, chromosomes chosen as elites are mutated")]
     public bool mutateElites;
@@ -31,14 +29,14 @@ public class World : MonoBehaviour {
 
     [Tooltip("The maximum number of iterations to find a new random city during mutation" +
         " in case two identical cities are chosen")]
-    public int itersToFindCities;
+    public int itersToFindNewCity;
+
+    [Tooltip("The selected method of crossing over two chromosomes")]
+    public Chromosome.CrossoverType crossoverType;
 
     private int generation = 1;
     private float fitnessSum;
     private Chromosome best, allTimeBest;
-
-    [Tooltip("The selected method of crossing over two chromosomes")]
-    public Chromosome.CrossoverType crossoverType;
 
     public GameObject cityPrefab;
     private List<City> newCities = new List<City>();

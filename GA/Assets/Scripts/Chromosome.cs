@@ -171,7 +171,7 @@ public class Chromosome {
 
                 var city2Index = Random.Range(0, dna.Count);
 
-                int numTries = world.itersToFindCities;
+                int numTries = world.itersToFindNewCity;
                 // cities are the same
                 while (city2Index == i && numTries > 0) {
                     city2Index = Random.Range(0, dna.Count);
