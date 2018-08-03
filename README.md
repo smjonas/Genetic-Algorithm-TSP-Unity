@@ -2,7 +2,7 @@
 
 This Unity project can be used to visualize solving the Travelling Salesman Problem (TSP) using an implementation of the Genetic Algorithm.
 
-![alt text](/images/tsp.png?raw=true)
+![Image](https://github.com/jonasstr/Genetic-Algorithm-TSP-Unity/blob/master/images/tsp.PNG)
 
 ## Installation
 Clone or download the project and open it in Unity (File --> Open Project).
