@@ -24,3 +24,6 @@ The following variables can be adjusted in the Unity inspector by clicking on th
 
 ## Unity Assets
 - [TextMesh Pro](https://assetstore.unity.com/packages/essentials/beta-projects/textmesh-pro-84126)
+
+## License
+[MIT](https://github.com/jonasstr/Genetic-Algorithm-TSP-Unity/blob/master/LICENSE)
